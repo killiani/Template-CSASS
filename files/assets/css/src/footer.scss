@@ -22,6 +22,12 @@
   }
 }
 
+.mobile-size{
+  img{
+    width: 1234px;
+  }
+}
+
 ///////////////////wird Mobile ausgeblendet
 @media (max-width: 1217px) {
   #footer{
