@@ -236,8 +236,11 @@
 }
 
 .quote {
-  font-size: 16px;
+  font-size: 19px;
   line-height: 16pt;
+  letter-spacing: -0.5px;
+   word-spacing: -3px;
+
 }
 
 #main .splitter {
@@ -395,10 +398,12 @@ table{
   }
 
   .mobile-quote {
-    font-size: 16px;
+    font-size: 19px;
     line-height: 1.4em;
     display: block;
     margin: 30px 0;
+    letter-spacing: -0.5px;
+    word-spacing: -3px;
   }
   #product .slider-menu {
     text-align: center;
