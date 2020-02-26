@@ -38,6 +38,33 @@ p {
   margin: 15px auto 0;
 }
 
+.datenschutz{
+  p {
+    max-width: 700px;
+    text-align: center;
+  }
+  h1 {
+
+  }
+  @include center;
+  padding-top: 11vh;
+}
+
+.ce_hyperlink{
+  text-align: center;
+  padding: 20px;
+}
+
+.bild{
+  max-width: 300px;
+  padding-top: 50px;
+  @include center;
+}
+
+.blocked a{
+  color: #262626 !important;
+}
+
 @import 'header';
 @import 'main';
 @import 'footer';

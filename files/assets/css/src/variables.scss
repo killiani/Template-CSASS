@@ -11,3 +11,10 @@ $dark: #262626;
   margin: 15px auto 0;
 }
 
+@mixin center {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
