@@ -135,12 +135,6 @@
 
 }
 
-.blurred-background {
-  background: rgba(0,0,0,0.2) url("../../images/header/BrickGin-Intro.jpg") 0%/cover no-repeat;
-  width: 100vw;
-  height: 100vh;
-}
-
 #age-content {
   display: flex;
   flex-wrap: wrap;
@@ -214,6 +208,8 @@
 .age-instagram {
   position: fixed;
   bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
   figure {
     width: 200px;
     margin: 0 auto;
@@ -316,10 +312,15 @@
   height: 50px;
 }
 
-
+.blurred-background {
+  background: rgba(0,0,0,0.2) url("../../images/header/BrickGin-Intro.jpg") 0%/cover no-repeat fixed;
+  width: 100vw;
+  height: 100vh;
+}
 
 
 ////////////////////////Desktop
+
 
 table{
   border-spacing: 0;
@@ -333,6 +334,10 @@ table{
   .ce_text{
     margin-top: 30px;
   }
+  .blurred-background {
+    background: url("../layout/brick_gin_organic_gin.jpg") 0%/cover no-repeat fixed;
+    background-position-x: 57%;
+  }
 
   #product,#manufactoring,#about_us {
     height: auto;
@@ -343,15 +348,10 @@ table{
     }
   }
 
-  .blurred-background {
-    background: url("../layout/brick_gin_organic_gin.jpg") 0%/cover no-repeat;
-    background-position-x: 57%;
-    height: 100vh
-  }
 
   #age-content .ce_text {
     padding: 0 20px;
-    margin-top: 35vh;
+    margin-top: 30vh;
   }
 
   #age-content {
