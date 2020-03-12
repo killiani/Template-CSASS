@@ -68,6 +68,10 @@ p {
   @include center;
 }
 
+.caption{
+  display: none;
+}
+
 .blocked a{
   color: #262626 !important;
 }
