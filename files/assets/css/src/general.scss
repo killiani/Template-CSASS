@@ -11,7 +11,7 @@
 
 
 
-h2{
+h2, h1{
   font-family: 'Nanami Bold';
   font-size: 32pt;
   letter-spacing: 1px;
@@ -39,18 +39,21 @@ p {
 }
 
 .ce_hyperlink{
-  width: 250px;
+  width: unset;
 }
 
 .datenschutz{
   p {
     max-width: 700px;
     text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
   }
   h1 {
 
   }
-  @include center;
+  //@include center;
   padding-top: 11vh;
 }
 

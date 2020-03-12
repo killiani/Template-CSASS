@@ -1,7 +1,7 @@
 @import 'variables';
 
 #main{
-  h2 {
+  h2, h1{
     border-bottom: 1px solid;
     float: none;
     font-weight: normal;
@@ -11,6 +11,10 @@
     font-size: 1pt;
     border-bottom: 1px solid;
   }
+}
+
+.insta{
+  max-width: 250px;
 }
 
 .mod_article {
@@ -313,7 +317,7 @@
 }
 
 .blurred-background {
-  background: rgba(0,0,0,0.2) url("../../images/header/BrickGin-Intro.jpg") 0%/cover no-repeat fixed;
+  background: rgba(0,0,0,0.2) url("../layout/brick_gin_organic_gin.jpg") 0%/cover no-repeat fixed;
   width: 100vw;
   height: 100vh;
 }
